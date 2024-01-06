@@ -27,3 +27,18 @@ body {
     cursor: pointer;
     font-size: 16px;
 }
+/* Style the navbar */
+.navbar {
+    position: fixed; /* Fix the navbar to the top of the viewport */
+    top: 0; /* Set the top position to 0 */
+    width: 100%; /* Set the width to 100% of the viewport */
+    z-index: 20; /* Set the z-index to 10 to make sure the navbar is on top of other elements */
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navbar gets a new position at the top of the page) */
+.container {
+    padding-top: 1px; /* Adjust this value according to the height of your navbar */
+}
+body {
+    padding-top: 80px; /* Adjust this value according to the height of your navbar */
+}
