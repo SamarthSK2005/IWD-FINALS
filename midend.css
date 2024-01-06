@@ -37,7 +37,7 @@ body {
 
 .container {
     padding-top: 1px;
-    body {
-        padding-top: 80px;
-    }
+}
+body {
+    padding-top: 80px;
 }
